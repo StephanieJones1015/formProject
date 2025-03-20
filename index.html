@@ -10,22 +10,22 @@
     <h1>form</h1>
     <p>Please fill out the information</p>
     <form action="results.html" method="GET">
-        <label for="fname">First name:</label><br>
+        <label for="fname" class="label">First name:</label><br>
         <input type="text" id="fname" name="fname" required><br>
-        <label for="lname">Last name:</label><br>
+        <label for="lname" class="label">Last name:</label><br>
         <input type="text" id="lname" name="lname" required><br>
-        <label for="age">Age:</label><br>
+        <label for="age" class="a-label">Age:</label><br>
         <input type="number" id="age" name="age" min="1" max="150"><br>
-        <label for="email">Email:</label><br>
+        <label for="email" class="b-label">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <button type="submit" class="button">Submit</button>
+        <button type="reset" class="reset">Reset</button>
       </form>
       <aside>
         <label for="male">male:</label>
-        <input type="radio" name="gender" id="male">
+        <input type="radio" name="gender" id="male" value="male">
         <label for="female">female:</label>
-        <input type="radio" name="gender" id="female">
+        <input type="radio" name="gender" id="female" value="female">
       </aside>
 </body>
 </html>
