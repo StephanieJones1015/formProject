@@ -1,12 +1,21 @@
 .label {
     font-size: 16px;
-    color: #333;
+    background-color: lightblue;
 }
 .a-label {
     font-size: 14px;
-    color: #666;
+    color: #d34242;
 }
 .b-label {
     font-size: 12px;
-    color: #999;
+    color: #0a744a;
 }
+button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
