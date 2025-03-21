@@ -19,3 +19,25 @@ button {
     border-radius: 4px;
     cursor: pointer;
   }
+  button:hover {
+    background-color: #45a049;
+  }
+  form {
+    margin: auto;
+    padding: 20px;
+    background-color: #daecde;
+    border-radius: 8px;
+  }
+body{
+    background-color: #814f4f;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  h1 {
+    text-align: center;
+    color: #280d4d;
+  }
+  p {
+    text-align: center;
+    color: #17072d;
+  }
